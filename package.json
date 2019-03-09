@@ -1,0 +1,27 @@
+{
+  "name": "yoda-page",
+  "version": "1.0.0",
+  "description": "Single-page application to translate text into the way Yoda would say it",
+  "main": "yoda-node.js",
+  "scripts": {
+    "start": "node ./yoda-node.js",
+    "devstart": "nodemon ./yoda-node.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipsc/yoda-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipsc/yoda-page/issues"
+  },
+  "homepage": "https://github.com/filipsc/yoda-page#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
